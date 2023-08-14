@@ -1,12 +1,10 @@
-
-import './App.css';
+import TodoApp from './TodoApp';
+import './style/App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       
-      </header>
+    <div className="app-container">
+      <TodoApp />
     </div>
   );
 }
